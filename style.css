@@ -1,0 +1,40 @@
+body {
+    background-image: url("table.jfif");
+    background-size: cover;
+}
+
+.game {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: rgb(32, 218, 94);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    transition: .3s ease;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background: rgb(22, 165, 70);
+}
