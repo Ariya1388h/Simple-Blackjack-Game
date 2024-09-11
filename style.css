@@ -1,40 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
 body {
-    background-image: url("table.jfif");
+    background-image: url('table.jpg');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
 }
 
 .game {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(226, 226, 226);
+    background-color: #16a31d6e;
+    padding: 30px;
+    border-radius: 10px;
     text-align: center;
+    width: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    color: goldenrod;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
 }
 
-#message-el {
-    font-style: italic;
+#message-el, #cards-el, #sum-el {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 button {
-    color: #016f32;
-    width: 150px;
-    background: rgb(32, 218, 94);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
+    background-color: #09c012ad;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
     border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
-    transition: .3s ease;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    transform: translateY(-5px);
-    background: rgb(22, 165, 70);
+    background-color: #32cc32;
 }
+
+button:active {
+    background-color: #53f85c;
+}
+
+#player-el {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
